@@ -1,0 +1,130 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F5FB"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUẢN LÝ LỊCH HẸN"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng nhập để tiếp tục"
+            android:textSize="15sp"
+            android:textColor="#718096"
+            android:gravity="center"
+            android:layout_marginBottom="32dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:background="#FFFFFF"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ĐĂNG NHẬP"
+                android:textSize="21sp"
+                android:textStyle="bold"
+                android:textColor="#263238"
+                android:gravity="center"
+                android:layout_marginBottom="26dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tên đăng nhập"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#455A64"
+                android:layout_marginBottom="7dp" />
+
+            <EditText
+                android:id="@+id/edtUsername"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Nhập tên đăng nhập"
+                android:inputType="text"
+                android:singleLine="true"
+                android:padding="14dp"
+                android:textSize="15sp"
+                android:textColor="#263238"
+                android:backgroundTint="#1565C0"
+                android:layout_marginBottom="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mật khẩu"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#455A64"
+                android:layout_marginBottom="7dp" />
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Nhập mật khẩu"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:padding="14dp"
+                android:textSize="15sp"
+                android:textColor="#263238"
+                android:backgroundTint="#1565C0"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:id="@+id/tvError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="13sp"
+                android:textColor="#D32F2F"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_marginBottom="12dp" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="ĐĂNG NHẬP"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#1565C0" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ứng dụng quản lý và theo dõi lịch hẹn"
+            android:textSize="12sp"
+            android:textColor="#90A4AE"
+            android:gravity="center"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,286 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="#F4F6FA"
+
+    android:fillViewport="true">
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:padding="20dp">
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="THÊM LỊCH HẸN"
+
+            android:textSize="25sp"
+
+            android:textStyle="bold"
+
+            android:textColor="#1565C0"
+
+            android:gravity="center"
+
+            android:layout_marginTop="12dp"
+
+            android:layout_marginBottom="8dp" />
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="Điền thông tin để tạo lịch hẹn mới"
+
+            android:textSize="14sp"
+
+            android:textColor="#757575"
+
+            android:gravity="center"
+
+            android:layout_marginBottom="28dp" />
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="Tên lịch hẹn *"
+
+            android:textSize="15sp"
+
+            android:textStyle="bold"
+
+            android:textColor="#333333" />
+
+
+
+        <EditText
+
+            android:id="@+id/edtTitle"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:hint="Ví dụ: Họp nhóm bài tập lớn"
+
+            android:inputType="textCapSentences"
+
+            android:singleLine="true"
+
+            android:padding="12dp"
+
+            android:backgroundTint="#1565C0"
+
+            android:layout_marginTop="6dp"
+
+            android:layout_marginBottom="20dp" />
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="Địa điểm *"
+
+            android:textSize="15sp"
+
+            android:textStyle="bold"
+
+            android:textColor="#333333" />
+
+
+
+        <EditText
+
+            android:id="@+id/edtLocation"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:hint="Ví dụ: Học viện PTIT"
+
+            android:inputType="textCapSentences"
+
+            android:singleLine="true"
+
+            android:padding="12dp"
+
+            android:backgroundTint="#1565C0"
+
+            android:layout_marginTop="6dp"
+
+            android:layout_marginBottom="20dp" />
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="Ngày hẹn"
+
+            android:textSize="15sp"
+
+            android:textStyle="bold"
+
+            android:textColor="#333333" />
+
+
+
+        <Button
+
+            android:id="@+id/btnDate"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:text="CHỌN NGÀY"
+
+            android:textSize="15sp"
+
+            android:textColor="#FFFFFF"
+
+            android:backgroundTint="#607D8B"
+
+            android:layout_marginTop="6dp"
+
+            android:layout_marginBottom="20dp" />
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="Giờ hẹn"
+
+            android:textSize="15sp"
+
+            android:textStyle="bold"
+
+            android:textColor="#333333" />
+
+
+
+        <Button
+
+            android:id="@+id/btnTime"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:text="CHỌN GIỜ"
+
+            android:textSize="15sp"
+
+            android:textColor="#FFFFFF"
+
+            android:backgroundTint="#607D8B"
+
+            android:layout_marginTop="6dp"
+
+            android:layout_marginBottom="20dp" />
+
+
+
+        <Switch
+
+            android:id="@+id/switchReminder"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:text="Bật nhắc nhở"
+
+            android:textSize="16sp"
+
+            android:textColor="#333333"
+
+            android:checked="false"
+
+            android:layout_marginBottom="24dp" />
+
+
+
+        <Button
+
+            android:id="@+id/btnSave"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:text="LƯU LỊCH HẸN"
+
+            android:textSize="16sp"
+
+            android:textStyle="bold"
+
+            android:textColor="#FFFFFF"
+
+            android:backgroundTint="#2E7D32"
+
+            android:layout_marginBottom="12dp" />
+
+
+
+        <Button
+
+            android:id="@+id/btnCancel"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="55dp"
+
+            android:text="HỦY"
+
+            android:textSize="16sp"
+
+            android:textColor="#FFFFFF"
+
+            android:backgroundTint="#757575" />
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView> 

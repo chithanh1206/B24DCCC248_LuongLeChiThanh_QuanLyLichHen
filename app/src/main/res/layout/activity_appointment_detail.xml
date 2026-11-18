@@ -1,0 +1,156 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F6FA"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHI TIẾT LỊCH HẸN"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thông tin chi tiết của lịch hẹn"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:gravity="center"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên lịch hẹn"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#757575"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên lịch hẹn"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa điểm"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#757575"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvDetailLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa điểm"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngày hẹn"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#757575"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvDetailDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngày hẹn"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giờ hẹn"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#757575"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvDetailTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giờ hẹn"
+            android:textSize="17sp"
+            android:textColor="#333333"
+            android:padding="16dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="22dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="24dp">
+
+            <Switch
+                android:id="@+id/switchDetailReminder"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Bật / Tắt nhắc nhở"
+                android:textSize="16sp"
+                android:textColor="#333333" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="XÓA LỊCH HẸN"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#D32F2F"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="QUAY LẠI"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#607D8B" />
+
+    </LinearLayout>
+
+</ScrollView>

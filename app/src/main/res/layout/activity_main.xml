@@ -1,0 +1,108 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F5FB"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Tiêu đề -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QUẢN LÝ LỊCH HẸN"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:gravity="center"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Theo dõi các cuộc hẹn của bạn"
+            android:textSize="14sp"
+            android:textColor="#78909C"
+            android:gravity="center"
+            android:layout_marginBottom="25dp" />
+
+        <!-- Tiêu đề thống kê -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TỔNG QUAN"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#37474F"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Thẻ thống kê tổng lịch -->
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tổng số lịch hẹn: 0"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#1565C0"
+            android:padding="20dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Thẻ thống kê nhắc nhở -->
+        <TextView
+            android:id="@+id/tvReminder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đang bật nhắc nhở: 0"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:padding="20dp"
+            android:background="#FFFFFF"
+            android:elevation="3dp"
+            android:layout_marginBottom="22dp" />
+
+        <!-- Nút thêm lịch -->
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="+  THÊM LỊCH HẸN"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#1565C0"
+            android:layout_marginBottom="25dp" />
+
+        <!-- Tiêu đề danh sách -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DANH SÁCH LỊCH HẸN"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#263238"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Danh sách lịch hẹn -->
+        <ListView
+            android:id="@+id/lvAppointments"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:background="@android:color/transparent"
+            android:clipToPadding="false"
+            android:paddingBottom="12dp" />
+
+    </LinearLayout>
+
+</ScrollView>
